@@ -1,0 +1,317 @@
+{
+  "name": "tailus-snippets",
+  "displayName": "Tailus Snippets",
+  "description": "Eazy to customize Modern and beautifull UI components built with tailwindcss that you can use right in your favorite IDE, VS Code.",
+  "icon": "public/icon.png",
+  "galleryBanner": {
+    "color": "#00325E",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "version": "0.8.0",
+  "repository": "https://github.com/Tailus-UI/snippets",
+  "publisher": "TailusUI",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./src/html/annonce.code-snippets"
+      },
+      {
+        "language": "astro",
+        "path": "./src/html/annonce.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/next/annonce.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/next/annonce.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./src/nuxt/annonce.code-snippets"
+      },
+
+      {
+        "language": "html",
+        "path": "./src/html/avatar.code-snippets"
+      },
+      {
+        "language": "astro",
+        "path": "./src/html/avatar.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/next/avatar.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/next/avatar.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./src/html/avatar.code-snippets"
+      },
+
+      {
+        "language": "html",
+        "path": "./src/html/badge.code-snippets"
+      },
+      {
+        "language": "astro",
+        "path": "./src/html/badge.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/next/badge.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/next/badge.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./src/html/badge.code-snippets"
+      },
+
+      {
+        "language": "html",
+        "path": "./src/html/button.code-snippets"
+      },
+      {
+        "language": "astro",
+        "path": "./src/html/button.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/next/button.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/next/button.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./src/html/button.code-snippets"
+      },
+
+      {
+        "language": "html",
+        "path": "./src/html/callout.code-snippets"
+      },
+      {
+        "language": "astro",
+        "path": "./src/html/callout.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/next/callout.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/next/callout.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./src/nuxt/callout.code-snippets"
+      },
+
+      {
+        "language": "html",
+        "path": "./src/html/card.code-snippets"
+      },
+      {
+        "language": "astro",
+        "path": "./src/html/card.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/next/card.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/next/card.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./src/html/card.code-snippets"
+      },
+
+      {
+        "language": "html",
+        "path": "./src/html/checkbox.code-snippets"
+      },
+      {
+        "language": "astro",
+        "path": "./src/html/checkbox.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/next/checkbox.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/next/checkbox.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./src/html/checkbox.code-snippets"
+      },
+
+      {
+        "language": "html",
+        "path": "./src/html/input.code-snippets"
+      },
+      {
+        "language": "astro",
+        "path": "./src/html/input.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/next/input.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/next/input.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./src/html/input.code-snippets"
+      },
+
+      {
+        "language": "html",
+        "path": "./src/html/textarea.code-snippets"
+      },
+      {
+        "language": "astro",
+        "path": "./src/html/textarea.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/next/textarea.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/next/textarea.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./src/html/textarea.code-snippets"
+      },
+
+      {
+          "language": "html",
+          "path": "./src/html/progress.code-snippets"
+      },
+      {
+          "language": "astro",
+          "path": "./src/html/progress.code-snippets"
+      },
+      {
+          "language": "javascriptreact",
+          "path": "./src/next/progress.code-snippets"
+      },
+      {
+          "language": "typescriptreact",
+          "path": "./src/next/progress.code-snippets"
+      },
+      {
+          "language": "vue",
+          "path": "./src/html/progress.code-snippets"
+      },
+
+      {
+          "language": "html",
+          "path": "./src/html/radio-card.code-snippets"
+      },
+      {
+          "language": "astro",
+          "path": "./src/html/radio-card.code-snippets"
+      },
+      {
+          "language": "javascriptreact",
+          "path": "./src/next/radio-card.code-snippets"
+      },
+      {
+          "language": "typescriptreact",
+          "path": "./src/next/radio-card.code-snippets"
+      },
+      {
+          "language": "vue",
+          "path": "./src/html/radio-card.code-snippets"
+      },
+
+      {
+          "language": "html",
+          "path": "./src/html/radio-group.code-snippets"
+      },
+      {
+          "language": "astro",
+          "path": "./src/html/radio-group.code-snippets"
+      },
+      {
+          "language": "javascriptreact",
+          "path": "./src/next/radio-group.code-snippets"
+      },
+      {
+          "language": "typescriptreact",
+          "path": "./src/next/radio-group.code-snippets"
+      },
+      {
+          "language": "vue",
+          "path": "./src/html/radio-group.code-snippets"
+      },
+
+      {
+          "language": "html",
+          "path": "./src/html/select.code-snippets"
+      },
+      {
+          "language": "astro",
+          "path": "./src/html/select.code-snippets"
+      },
+      {
+          "language": "javascriptreact",
+          "path": "./src/next/select.code-snippets"
+      },
+      {
+          "language": "typescriptreact",
+          "path": "./src/next/select.code-snippets"
+      },
+      {
+          "language": "vue",
+          "path": "./src/html/select.code-snippets"
+      },
+
+      {
+          "language": "html",
+          "path": "./src/html/switch.code-snippets"
+      },
+      {
+          "language": "astro",
+          "path": "./src/html/switch.code-snippets"
+      },
+      {
+          "language": "javascriptreact",
+          "path": "./src/next/switch.code-snippets"
+      },
+      {
+          "language": "typescriptreact",
+          "path": "./src/next/switch.code-snippets"
+      },
+      {
+          "language": "vue",
+          "path": "./src/html/switch.code-snippets"
+      }
+    ]
+  }
+}
