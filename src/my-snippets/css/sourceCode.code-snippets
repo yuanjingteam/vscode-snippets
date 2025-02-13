@@ -1,0 +1,88 @@
+//css源码片段
+{
+  //flex水平垂直居中
+  "snippets css flex": {
+    "prefix": "dis-flex",
+    "body": [
+      "display: flex;",
+      "justify-content: center;",
+      "align-items: center;"
+    ],
+    "description": "flex centered horizontally and vertically"
+  },
+  //grid,1*1，并且元素水平垂直居中
+  "snippets css grid": {
+    "prefix": "dis-grid",
+    "body": [
+      "display: grid;",
+      "grid-template-columns: 1fr;",
+      "grid-template-rows: 1fr;",
+      "justify-items: center;",
+      "align-items: center;"
+    ],
+    "description": "grid 1*1, centered horizontally and vertically"
+  },
+  //测试用的小方块
+  "snippets css square": {
+    "prefix": "wh100",
+    "body": ["width: 100px;", "height: 100px;", "background-color: $1red;"],
+    "description": "a square for testing"
+  },
+  //清除页面自带的内外边距
+  "snippets css reset": {
+    "prefix": "*",
+    "body": ["*{", "margin: 0;", "padding: 0;", "}"],
+    "description": "reset margin and padding"
+  },
+  //保留一行文字，超出变省略号
+  "snippets css text-ellipsis": {
+    "prefix": "ellipsis-one",
+    "body": [
+      "text-overflow: ellipsis;",
+      "overflow: hidden;",
+      "white-space: nowrap;"
+    ],
+    "description": "A line of text, beyond the ellipsis"
+  },
+  //保留两行文字，超出变省略号
+  "snippets css text-ellipsis-2": {
+    "prefix": "ellipsis-two",
+    "body": [
+      "display: -webkit-box;",
+      "-webkit-line-clamp: $1 2;",
+      "-webkit-box-orient: vertical;",
+      "overflow: hidden;",
+      "text-overflow: ellipsis;"
+    ],
+    "description": "Two lines of text, beyond the ellipsis"
+  },
+  //css动画
+  "snippets css animation": {
+    "prefix": "@key",
+    "body": [
+      " @keyframes animationName {",
+      "\t 0%{",
+      " \t\t /* 初始状态 */",
+      "\t }",
+      "\t 100%{",
+      "\t\t /* 最终状态 */",
+      "\t }",
+      "}"
+    ],
+    "description": "css animation"
+  },
+  //css媒体查询
+  "snippets css media": {
+    "prefix": "@med",
+    "body": [
+      "/*",
+      "\t max-width:600px:屏幕宽度小于600px时，应用以下样式",
+      "\t min-width:600px:屏幕宽度大于600px时，应用以下样式",
+      "*/",
+      "@media screen and (max-width: 600px) {",
+      "\t $1",
+      "}"
+    ],
+    "description": "css media"
+  }
+}

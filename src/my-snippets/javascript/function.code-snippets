@@ -1,0 +1,74 @@
+//封装的js相关方法片段
+{
+  //普通函数
+  "snippets vue baseFun": {
+    "prefix": "fun",
+    "body": ["function fun(){", "\t $1", "}"],
+    "description": "Ordinary function segment"
+  },
+  //箭头函数
+  // "snippets vue arrowsFun": {
+  //   "prefix": "=>",
+  //   "body": ["fun()=>{", "\t $1", "}"],
+  //   "description": "Arrow function fragment"
+  // },
+  //深拷贝，json序列化和反序列化
+  "snippets vue deepCopy": {
+    "prefix": "deepCopy",
+    "body": ["const ans = JSON.parse(JSON.stringify($1))"],
+    "description": "Deep copy, JSON serialization and deserialization"
+  },
+  //将任意日期转换为XXXX年XX月XX日格式
+  "snippets vue dateToFormat": {
+    "prefix": "ymd",
+    "body": [
+      "function dateToFormat(param){",
+      "\t const date = new Date(param);",
+      "\t let year = date.getFullYear();",
+      "\t let month = date.getMonth() + 1;",
+      "\t let day = date.getDate();",
+      "\t return `${year}年${month}月${day}日`;",
+      "}"
+    ],
+    "description": "Convert any date to XXXX year XX month XX day format"
+  },
+  //将任意日期转换为XXXX年XX月XX日 XX时XX分XX秒格式
+  "snippets vue dateToFormat2": {
+    "prefix": "ymdhms",
+    "body": [
+      "function dateToFormat2(param){",
+      "\t const date = new Date(param);",
+      "\t let year = date.getFullYear();",
+      "\t let month = date.getMonth() + 1;",
+      "\t let day = date.getDate();",
+      "\t let hour = date.getHours();",
+      "\t let minute = date.getMinutes();",
+      "\t let second = date.getSeconds();",
+      "\t return `${year}年${month}月${day}日 ${hour}时${minute}分${second}秒`;",
+      "}"
+    ],
+    "description": "Convert any date to XXXX year XX month XX day XX hour XX minute XX second format"
+  },
+  //手机号正则表达式
+  "snippets vue phone": {
+    "prefix": "/phone/",
+    "body": [
+      "function phone(param){",
+      "\t const reg = /^1[3-9]\\d{9}$/;",
+      "\t return reg.test(param);",
+      "}"
+    ],
+    "description": "Regular expression for phone number"
+  },
+  //邮箱正则表达式
+  "snippets vue email": {
+    "prefix": "/email/",
+    "body": [
+      "function email(param){",
+      "\t const reg = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$/;",
+      "\t return reg.test(param);",
+      "}"
+    ],
+    "description": "Regular expression for email"
+  },
+}

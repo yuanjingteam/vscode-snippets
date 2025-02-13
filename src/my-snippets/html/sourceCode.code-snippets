@@ -1,0 +1,19 @@
+//html代码片段
+{
+  //form表单
+  "snippets html form": {
+    "prefix": "form",
+    "body": [
+      "<form action=\"\" method=\"\">",
+      "\t <input type=\"\" name=\"\" value=\"\" />",
+      "</form>"
+    ],
+    "description": "form"
+  },
+  //table表格
+  "snippets html table": {
+    "prefix": "table",
+    "body": ["<table>", "\t<tr>", "\t\t<td></td>", "\t</tr>", "</table>"],
+    "description": "table"
+  }
+}
