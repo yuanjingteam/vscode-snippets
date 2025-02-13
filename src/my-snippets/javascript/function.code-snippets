@@ -7,11 +7,11 @@
     "description": "Ordinary function segment"
   },
   //箭头函数
-  "snippets vue arrowsFun": {
-    "prefix": "=>",
-    "body": ["fun()=>{", "\t $1", "}"],
-    "description": "Arrow function fragment"
-  },
+  // "snippets vue arrowsFun": {
+  //   "prefix": "=>",
+  //   "body": ["fun()=>{", "\t $1", "}"],
+  //   "description": "Arrow function fragment"
+  // },
   //深拷贝，json序列化和反序列化
   "snippets vue deepCopy": {
     "prefix": "deepCopy",

@@ -17,13 +17,13 @@
     "description": "console.log()"
   },
   //打印一行”*“代码
-  "snippets javascript log*": {
-    "prefix": "l*",
-    "body": [
-      "console.log('*********************************************************')",
-    ],
-    "description": "console.log()"
-  },
+  // "snippets javascript log*": {
+  //   "prefix": "l*",
+  //   "body": [
+  //     "console.log('*********************************************************')",
+  //   ],
+  //   "description": "console.log()"
+  // },
   //打印一行”-“代码
   "snippets javascript log-": {
     "prefix": "l-",
@@ -65,13 +65,13 @@
     "description": "console.log()"
   },
   //打印一行”-“代码
-  "snippets javascript log@": {
-    "prefix": "l@",
-    "body": [
-      "console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@)",
-    ],
-    "description": "console.log()"
-  },
+  // "snippets javascript log@": {
+  //   "prefix": "l@",
+  //   "body": [
+  //     "console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@)",
+  //   ],
+  //   "description": "console.log()"
+  // },
   //获取单个元素节点代码
   "snippets javascript get elemetn-node": {
     "prefix": "docu",
