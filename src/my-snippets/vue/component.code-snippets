@@ -1,0 +1,57 @@
+//vue可直接使用的组件
+{
+  //防抖函数组件
+  "snippets vue debounce": {
+    "prefix": "debounce",
+    "body": [
+      "type CallbackFunc<T extends unknown[]> = (...args: T) => void",
+      "",
+      "export function debounce<T extends unknown[]>(",
+      "\t func: CallbackFunc<T>,",
+      "\t wait: number,",
+      "): (...args: T) => void {",
+      "\t let timeoutId: ReturnType<typeof setTimeout> | undefined",
+      "\t return (...args: T) => {",
+      "\t\t const later = () => {",
+      "\t\t\t clearTimeout(timeoutId)",
+      "\t\t\t func(...args)",
+      "\t\t }",
+      "\t\t clearTimeout(timeoutId)",
+      "\t\t timeoutId = setTimeout(later, wait)",
+      "\t }",
+      "}"
+    ],
+    "description": "debounce function component"
+  },
+  //节流函数组件
+  "snippets vue throttle": {
+    "prefix": "throttle",
+    "body": [
+      "type CallbackFunc<T extends unknown[]> = (...args: T) => void;",
+      "",
+      "export function throttle<T extends unknown[]>(",
+      "\t func: CallbackFunc<T>,",
+      "\t limit: number,",
+      "): (...args: T) => void {",
+      "\t let inThrottle: boolean;",
+      "\t let lastTime: number;",
+      "",
+      "\t return (...args: T) => {",
+      "\t\t const now = Date.now();",
+      "\t\t if (!lastTime) {",
+      "\t\t\t lastTime = now;",
+      "\t\t }",
+      "\t\t if (!inThrottle && now - lastTime >= limit) {",
+      "\t\t\t func(...args);",
+      "\t\t\t lastTime = now;",
+      "\t\t\t inThrottle = true;",
+      "\t\t\t setTimeout(() => {",
+      "\t\t\t\t inThrottle = false;",
+      "\t\t\t }, limit);",
+      "\t\t }",
+      "\t };",
+      "}"
+    ],
+    "description": "throttle function component"
+  },
+}

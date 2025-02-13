@@ -1,0 +1,52 @@
+//vue源代码相关的代码片段
+{
+  //vue的基本框架,使用setup语法糖
+  "snippets vue frame use setup": {
+    "prefix": "tss-setup",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "\t $1",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script setup lang='ts'>",
+      "\t",
+      "</script>",
+      "",
+      "<style scoped>",
+      "\t",
+      "</style>"
+    ],
+    "description": "vue frame use setup"
+  },
+  //vue的基本框架,未使用setup语法糖
+  "snippets vue frame": {
+    "prefix": "tss",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "\t '$1'",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script lang='ts'>",
+      "\timport { defineComponent } from 'vue';",
+      "\t",
+      "\texport default defineComponent({",
+      "\t\tname: '$2',",
+      "\t\tsetup() {",
+      "\t\t\treturn {",
+      "\t\t\t\t$3",
+      "\t\t\t};",
+      "\t\t}",
+      "\t});",
+      "</script>",
+      "",
+      "<style scoped>",
+      "\t",
+      "</style>"
+    ],
+    "description": "vue frame"
+  },
+}

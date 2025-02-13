@@ -1,0 +1,91 @@
+//js源代码相关的代码片段
+{
+  //基本打印代码
+  "snippets javascript log": {
+    "prefix": "l",
+    "body": [
+      "console.log($1)",
+    ],
+    "description": "console.log()"
+  },
+  //打印一行”#“代码
+  "snippets javascript log#": {
+    "prefix": "l#",
+    "body": [
+      "console.log('#############################################################)",
+    ],
+    "description": "console.log()"
+  },
+  //打印一行”*“代码
+  "snippets javascript log*": {
+    "prefix": "l*",
+    "body": [
+      "console.log('*********************************************************')",
+    ],
+    "description": "console.log()"
+  },
+  //打印一行”-“代码
+  "snippets javascript log-": {
+    "prefix": "l-",
+    "body": [
+      "console.log('--------------------------------------------------')",
+    ],
+    "description": "console.log()"
+  },
+  //打印一行”-“代码
+  "snippets javascript log=": {
+    "prefix": "l=",
+    "body": [
+      "console.log('============================================)",
+    ],
+    "description": "console.log()"
+  },
+  //打印一行”-“代码
+  "snippets javascript log+": {
+    "prefix": "l+",
+    "body": [
+      "console.log('++++++++++++++++++++++++++++++++++++++++++++)",
+    ],
+    "description": "console.log()"
+  },
+  //打印一行”-“代码
+  "snippets javascript log?": {
+    "prefix": "l?",
+    "body": [
+      "console.log('????????????????????????????????????????????)",
+    ],
+    "description": "console.log()"
+  },
+  //打印一行”-“代码
+  "snippets javascript log!": {
+    "prefix": "l!",
+    "body": [
+      "console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)",
+    ],
+    "description": "console.log()"
+  },
+  //打印一行”-“代码
+  "snippets javascript log@": {
+    "prefix": "l@",
+    "body": [
+      "console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@)",
+    ],
+    "description": "console.log()"
+  },
+  //获取单个元素节点代码
+  "snippets javascript get elemetn-node": {
+    "prefix": "docu",
+    "body": [
+      "const xxx = document.querySelector('$1')",
+    ],
+    "description": "Get individual element nodes quickly"
+  },
+  //获取同一类元素节点代码
+  "snippets javascript get elemetn-nodes": {
+    "prefix": "docuall",
+    "body": [
+      "const xxx = document.querySelectorAll('$1')",
+    ],
+    "description": "Quickly get all element nodes of a type"
+  },
+}
