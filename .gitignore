@@ -2,3 +2,4 @@
 *.DS_Store
 *.vsix
 vsc-extension-quickstart.md
+package-lock.json

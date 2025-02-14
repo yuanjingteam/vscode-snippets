@@ -1,1 +1,1 @@
-# html、css、js、vue、react常用代码片段
+# This extension contains snippets of code that I personally use in vscode
